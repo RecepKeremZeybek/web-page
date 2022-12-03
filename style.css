@@ -1,12 +1,20 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 a {
   color: black;
   text-decoration: none;
-  margin: 15px;
+  margin: 20px;
+}
+
+a:hover{
+    color: white;
+    font-size: 20px;
+    transition: ease-in 0.3s;
+    text-decoration: underline;
 }
 
 .header {
@@ -16,15 +24,17 @@ a {
   height: 200px;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 7px 7px 10px grey;
+  box-shadow: 7px 7px 10px grey, -7px -7px 10px grey;
   margin: auto;
   flex-wrap: wrap;
   /* sığmayan olursa aşşağı göndermeye yarar responive tasarım için */
+  padding: 15px;
 }
 
 .logo {
   width: 170px;
   height: 120px;
+  box-shadow: 7px 7px 10px grey;
 }
 
 ul {
